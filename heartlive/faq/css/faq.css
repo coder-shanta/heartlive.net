@@ -1,0 +1,115 @@
+
+@font-face {
+  font-family: 'Roboto', sans-serif !important;
+  src: url('../fonts/Roboto-Black.ttf');
+
+}
+body
+{
+    font-family: 'Roboto', sans-serif !important;
+}
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    }
+.header-img{
+  width: 100%;
+}
+    .faqHeader {
+        font-size: 16px;
+        margin: 20px;
+           font-weight: normal;
+            font-family: 'Roboto';
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+       font-family: 'Roboto';
+            font-weight: normal;
+        content: "\203A"; /* "play" icon */
+
+        float: right;
+        color: #F58723;
+        font-size: 23px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        font-size: 23px;
+        line-height: 22px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+        font-weight: bold;
+    }
+    .panel-title{
+
+        line-height: 15px;
+        font-weight: bold;
+
+    }
+
+    .panel-heading {
+        font-weight: normal;
+    padding: 20px 10px !important;
+   }
+.panel-collapse{
+    background: #F2F2F2 !important;
+}
+a:link {
+    text-decoration: none;
+    font-size: 16px;
+color: #3a3a3a !important;
+}
+.panel-body{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    background-color: #fcfbfb;;
+}
+.content {
+    padding: 0 20px 0 10px;
+    /*border-bottom: 1px solid #e4e4e4;*/
+
+}
+
+.content h3 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #F58723;
+    padding-top: 0px;
+    line-height: 17px;
+}
+.content p {
+    padding: 0 0 15px 24px;
+        font-size: 16px;
+    color: #333;
+    line-height: 26px;
+}
+
+.bold {
+    font-weight: 700!important;
+}
+table caption {
+    padding: .5em 0;
+}
+
+@media screen and (max-width: 767px) {
+  table caption {
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.p {
+  text-align: center;
+  padding-top: 140px;
+  font-size: 14px;
+}

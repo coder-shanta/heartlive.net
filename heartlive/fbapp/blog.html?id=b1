@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stream & Live your Dreams</title>
+
+    <meta name="og:image" content="http://heartlive.tv/heartlive/fbapp/images/logo.png" />
+
+    <meta name="og:url" content="http://heartlive.tv/heartlive/fbapp/blog.html" />
+    <meta name="og:site_name" content="heartlive" />
+
+    <meta name="og:description" content="heartlive is the top live streaming app. Watch the best talent live & stream.">
+
+    <meta name="title" content="heartlive - Broadcast your stuff">
+
+
+
+    <meta name="facebook-domain-verification" content="jxk8ligg6lis8hlbubi0jvacxoymth" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css?v=2">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <script src="js/jquery.3.1.min.js?v=2"></script>
+    <script src="js/lang.js?v=2"></script>
+    <script src="js/bootstrap.min.js?v=2"></script>
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.heartlive/fbapp/js');
+        fbq('init', '352300508840146');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=352300508840146&ev=PageView&noscript=1"
+/></noscript>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+
+    <!-- 
+ <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a> -->
+
+
+    <script>
+        $(document).ready(function() {
+
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+
+        function addClass() {
+            $("#bgHead").addClass("changeColor");
+        }
+    </script>
+
+    <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.heartlive/fbapp/js"></script>
+    <script type="text/javascript">
+        FreshWidget.init("", {
+            "queryString": "&widgetType=popup&captcha=yes&searchArea=no",
+            "utf8": "✓",
+            "widgetType": "popup",
+            "buttonType": "text",
+            "buttonText": "Support",
+            "buttonColor": "white",
+            "buttonBg": "#A200BB",
+            "alignment": "2",
+            "offset": "400px",
+            "formHeight": "500px",
+            "captcha": "yes",
+            "url": "https://melothelp.freshdesk.com"
+        });
+    </script>
+
+</body>
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtagjs?id=G-4DGWX5FW0C"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('heartlive/fbapp/js', new Date());
+
+    gtag('config', 'G-4DGWX5FW0C');
+
+
+    window.onload = function() {
+        gtag('send', 'event', {
+            eventCategory: 'heartliveWebsiteIdeal',
+            eventAction: 'Click',
+            eventLabel: 'enquiry heartliveWebsiteIdeal page'
+        });
+    };
+
+
+    function showmore() {
+        $('#moredata').show();
+        $('#morebtn').hide();
+        $('#lessbtn').show();
+        // body...
+    }
+
+    function showless() {
+        $('#moredata').hide();
+        $('#lessbtn').hide();
+        $('#morebtn').show();
+        // body...
+    }
+</script>
+
+<script type="text/javascript">
+    // Instantiate the Bootstrap carousel
+    $('.multi-item-carousel').carousel({
+        interval: false
+    });
+
+    // for every slide in carousel, copy the next slide's item in the slide.
+    // Do the same for the next, next item.
+    $('.multi-item-carousel .item').each(function() {
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+
+        if (next.next().length > 0) {
+            next.next().children(':first-child').clone().appendTo($(this));
+        } else {
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+        }
+    });
+
+
+
+
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+
+
+
+
+    var blog_id = getUrlParameter('id');
+
+    console.log(blog_id);
+    var loc = window.location.pathname;
+    var dir = loc.substring(0, loc.lastIndexOf('/'));
+
+    if (blog_id == "b1") {
+        window.location.href = dir + "/blog/1.html";
+    } else if (blog_id == "b2") { //feature of sk app
+        window.location.href = dir + "/blog/2.html";
+    } else if (blog_id == "b3") { //fun
+        window.location.href = dir + "/blog/3.html";
+    } else if (blog_id == "b4") { //monitize sk
+        window.location.href = dir + "/blog/4.html";
+    } else if (blog_id == "b5") { //monitize sk
+        window.location.href = dir + "/blog/5.html";
+    } else if (blog_id == "b6") { //monitize sk
+        window.location.href = dir + "/blog/1.html";
+    }
+</script>
+
+
+
+</html>

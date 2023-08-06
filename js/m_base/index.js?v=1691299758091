@@ -1,0 +1,31 @@
+/**
+ * h5的rem适配方案
+ * 设置html根节点font-size
+ */
+;
+(function (win) {
+    var html = document.getElementsByTagName("html")[0];
+    var fs = parseInt(getStyle(html, 'fontSize'));
+
+    function getStyle(obj, attr) {
+        if (obj.currentStyle) {
+            return obj.currentStyle[attr];
+        }
+        else {
+            return getComputedStyle(obj, false)[attr];
+        }
+    }
+
+    function setUnitA() {
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 / fs * 100 + "%";
+    }
+
+    var h = null;
+    window.addEventListener("resize", function () {
+        clearTimeout(h);
+        h = setTimeout(setUnitA, 300);
+    }, false);
+    setUnitA();
+})(window);
+
+

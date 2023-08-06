@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="UTF-8">
+    <meta name="keywords" content="site keywords seo" />
+    <meta name="description" content="site description seo" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>User Agreement | heartlive</title>
+    <link rel="stylesheet" href="/styles/common/common.css">
+    <style>
+        #J_ReactWrap {
+            position: relative;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: scroll;
+        }
+    </style>
+    <script src="/js/m_base/index.js?v=1691299758091"></script>
+</head>
+<body>
+<div id="J_ReactWrap"></div>
+<!--SCRIPTS-->
+<script src="/js/dependencies/jquery-2.1.1.min.js"></script>
+<script src="/js/client_api/apis.js"></script>
+<script src="/js/dependencies/browser.js"></script>
+<script src="/js/dependencies/es5.js"></script>
+<script src="/js/dependencies/jquery.cookies.min.js"></script>
+<script src="/js/dependencies/jquery.i18n.js"></script>
+<script src="/js/dependencies/loading.js"></script>
+<script src="/js/dependencies/md.js"></script>
+<script src="/js/dependencies/message.js"></script>
+<script src="/js/dependencies/utils.js"></script>
+<script src="/js/com/dialog/dialog.js"></script>
+<script src="/js/com/swipe/swipe.js"></script>
+<script src="/js/utils/native_mediator.js"></script>
+<script src="/js/utils/underscore-min.js"></script>
+<script src="/js/utils/fastclick.js"></script>
+<script src="/js/agreement.js?v=1691299758091"></script>
+</body>
+</html>
